@@ -1,0 +1,25 @@
+header {
+  padding: 40px;
+  border-bottom: 1px solid #eaeaea;
+  p,
+  h3 {
+    margin: 0;
+  }
+}
+
+.headerLeft {
+  img {
+    margin-right: 15px;
+  }
+}
+
+.headerRight {
+  li {
+    margin-right: 30px;
+  }
+  li:hover {
+    cursor: pointer;
+    transform: translateY(-2px);
+    transition: 0.3s ease-in-out;
+  }
+}
